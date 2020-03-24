@@ -56,17 +56,17 @@ Java带你从0到上线开发企业级电商项目
 https://coding.imooc.com/class/96.html
 
 - 一期项目git仓库
-
+https://github.com/zhangjianye88/mmall/tree/master/Enterprice_Mmall_Starter
 
 ### 二期项目
 Java企业级电商项目架构演进之路 Tomcat集群与Redis分布式
 
 
 - 在二期git仓库中V1.0的分支是一期的代码
-
+https://github.com/zhangjianye88/mmall/tree/master/Enterprice_Mmall_TomcatCluster_RedisDistribute/mmallv1.0 
 
 - 二期的项目代码在master分支上
-
+https://github.com/zhangjianye88/mmall/tree/master/Enterprice_Mmall_TomcatCluster_RedisDistribute/mmallv4.0
 
 ### 免费课程(非常棒的RestFul扩展-8-1小节)
 SpringMVC数据绑定 
