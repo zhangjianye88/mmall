@@ -48,7 +48,6 @@ Redisson 2.9.0
 
 
 
-
 ## 全套课程代码说明
 
 ### 一期项目
@@ -171,7 +170,21 @@ mybatis generator使用的mysql-bin.jar包在工程项目tools文件夹下，可
 14.	Maven：请访问http://learning.happymmall.com/maven/下载windows和linux/mac 下的Maven
 如果Maven默认仓库源比较慢，请修改settings文件，配置上阿里云的Maven仓库源，那个速度还是挺快的。
 15.	MySQL：请访问 http://learning.happymmall.com/mysql/下载windows和linux/mac 下的MySQL，另外里面提供了一期课程mysql的配置文件。
-16.	支付宝： 具体的支付宝对接时候各种文档等，url比较长，特意给大家整理了。请访问 http://learning.happymmall.com/alipaydoc.html 这个网址。
+16.	支付宝： 具体的支付宝对接时候各种文档等网址。
+沙箱登录：https://openhome.alipay.com/platform/appDaily.htm
+沙箱环境使用说明：https://doc.open.alipay.com/doc2/detail.htm?treeId=200&articleId=105311&docType=1
+如何使用沙箱环境：https://support.open.alipay.com/support/hotProblemDetail.htm?spm=a219a.7386793.0.0.uS5uZ6&id=251932&tagId=100248
+当面付产品介绍：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.hV5Clx&treeId=193&articleId=105072&docType=1
+扫码支付接入指引：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.Ia6Wqy&treeId=193&articleId=106078&docType=1
+当面付快速接入：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.bROnXf&treeId=193&articleId=105170&docType=1
+当面付接入必读：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.hV5Clx&treeId=193&articleId=105322&docType=1
+当面付进阶功能：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.YFmkxI&treeId=193&articleId=105190&docType=1
+当面付异步通知-仅用于扫码支付：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.BykVSR&treeId=193&articleId=103296&docType=1
+当面付SDK&DEMO：https://support.open.alipay.com/docs/doc.htm?spm=a219a.7386797.0.0.k0rwWc&treeId=193&articleId=105201&docType=1
+服务端SDK：https://doc.open.alipay.com/doc2/detail?treeId=54&articleId=103419&docType=1
+生成RSA密钥：https://doc.open.alipay.com/docs/doc.htm?treeId=291&articleId=105971&docType=1
+线上创建应用说明：https://doc.open.alipay.com/doc2/detail.htm?treeId=200&articleId=105310&docType=1#s0
+
 17.	PPT长命令：ppt里面的长命令也给小伙伴们整理了。请访问 http://learning.happymmall.com/pptcommand.html 
 18.	一期课程的思维导图： http://learning.happymmall.com/happymmallv1.svg
 19.	架构演进之Tomcat集群和分布式进阶课程相关资料
