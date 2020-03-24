@@ -22,6 +22,7 @@ https://coding.imooc.com/class/162.html
 操作系统-1 CentOS 6.8 ,64位
 操作系统-2 Windows 7 ,64位
 操作系统-3 Mac OS 10.12
+
 JDK版本 7u80 ,64位
 Git版本 2.8.0
 Maven版本 3.0.5
@@ -30,6 +31,7 @@ Nginx版本 1.10.2
 Tomcat版本 7.0
 Vsftpd版本 vsftpd-2.2.2-21.el6.x86_64
 Redis版本 2.8
+
 开发工具 IDEA 2017
 RDM 0.8.8
 JD 1.4.0
@@ -43,6 +45,7 @@ Jedis 2.6.0
 Lombok 1.16.18
 Jackson 1.9.12
 Redisson 2.9.0
+
 软件及环境配置 http://learning.happymmall.com
 项目官网 www.happymmall.com
 
@@ -162,33 +165,54 @@ mybatis generator使用的mysql-bin.jar包在工程项目tools文件夹下，可
 8.	Tomcat： http://learning.happymmall.com/tomcat/ 请来这里下载windows、linux/mac 下的tomcat7
 如果配置nginx+ftp服务+tomcat来做图片服务器，访问不到，请重点参考此问答 http://coding.imooc.com/learn/questiondetail/9369.html 
 
-9.	自动化发布shell脚本： http://learning.happymmall.com/deploy/ 可以在这里下载到一期课程自动化发布脚本，当然具体的路径还要根据自己的实际项目的环境修改成自己的shell脚本哟
-10.	系统环境变量: http://learning.happymmall.com/env/ 这里给大家整理了防火墙的配置和Linux系统环境变量，当然具体的路径小伙伴们根据自己的实际情况来修改好哟。
-11.	FTP服务:Windows请在 http://learning.happymmall.com/ftpserver/ 下载，Linux请使用yum安装，在Linux下Vsftpd配置请访问 http://learning.happymmall.com/vsftpdconfig/ 另外在配置vsftpd服务的时候，一定要检查创建的ftp目录里面的用户、用户组权限，是否有对应ftpuser用户的权限，如果没有，可以使用chown、chgrp来指定到ftp操作用户。然后通过chmod给予对应ftp用户的读写执行权限。
-12.	Git：请访问 http://learning.happymmall.com/git/ 下载windows和linux/mac 下的git客户端
-13.	JDK：请访问 http://learning.happymmall.com/jdk/ 下载windows和linux/mac 下的JDK 
-14.	Maven：请访问http://learning.happymmall.com/maven/下载windows和linux/mac 下的Maven
-如果Maven默认仓库源比较慢，请修改settings文件，配置上阿里云的Maven仓库源，那个速度还是挺快的。
-15.	MySQL：请访问 http://learning.happymmall.com/mysql/下载windows和linux/mac 下的MySQL，另外里面提供了一期课程mysql的配置文件。
-16.	支付宝： 具体的支付宝对接时候各种文档等网址。
-沙箱登录：https://openhome.alipay.com/platform/appDaily.htm
-沙箱环境使用说明：https://doc.open.alipay.com/doc2/detail.htm?treeId=200&articleId=105311&docType=1
-如何使用沙箱环境：https://support.open.alipay.com/support/hotProblemDetail.htm?spm=a219a.7386793.0.0.uS5uZ6&id=251932&tagId=100248
-当面付产品介绍：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.hV5Clx&treeId=193&articleId=105072&docType=1
-扫码支付接入指引：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.Ia6Wqy&treeId=193&articleId=106078&docType=1
-当面付快速接入：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.bROnXf&treeId=193&articleId=105170&docType=1
-当面付接入必读：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.hV5Clx&treeId=193&articleId=105322&docType=1
-当面付进阶功能：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.YFmkxI&treeId=193&articleId=105190&docType=1
-当面付异步通知-仅用于扫码支付：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.BykVSR&treeId=193&articleId=103296&docType=1
-当面付SDK&DEMO：https://support.open.alipay.com/docs/doc.htm?spm=a219a.7386797.0.0.k0rwWc&treeId=193&articleId=105201&docType=1
-服务端SDK：https://doc.open.alipay.com/doc2/detail?treeId=54&articleId=103419&docType=1
-生成RSA密钥：https://doc.open.alipay.com/docs/doc.htm?treeId=291&articleId=105971&docType=1
-线上创建应用说明：https://doc.open.alipay.com/doc2/detail.htm?treeId=200&articleId=105310&docType=1#s0
+9. 自动化发布shell脚本： http://learning.happymmall.com/deploy/ 可以在这里下载到一期课程自动化发布脚本，当然具体的路径还要根据自己的实际项目的环境修改成自己的shell脚本哟
 
-17.	PPT长命令：ppt里面的长命令也给小伙伴们整理了。请访问 http://learning.happymmall.com/pptcommand.html 
-18.	一期课程的思维导图： http://learning.happymmall.com/happymmallv1.svg
-19.	架构演进之Tomcat集群和分布式进阶课程相关资料
-http://learning.happymmall.com/%E4%BA%8C%E6%9C%9F%E9%9B%86%E7%BE%A4%E5%8F%8A%E7%BC%93%E5%AD%98%E5%88%86%E5%B8%83%E5%BC%8FJava%E7%AB%AF/
+10. 系统环境变量: http://learning.happymmall.com/env/ 这里给大家整理了防火墙的配置和Linux系统环境变量，当然具体的路径小伙伴们根据自己的实际情况来修改好哟。
+
+11. FTP服务:Windows请在 http://learning.happymmall.com/ftpserver/ 下载，Linux请使用yum安装，在Linux下Vsftpd配置请访问 http://learning.happymmall.com/vsftpdconfig/ 另外在配置vsftpd服务的时候，一定要检查创建的ftp目录里面的用户、用户组权限，是否有对应ftpuser用户的权限，如果没有，可以使用chown、chgrp来指定到ftp操作用户。然后通过chmod给予对应ftp用户的读写执行权限。
+
+12. Git：请访问 http://learning.happymmall.com/git/ 下载windows和linux/mac 下的git客户端
+
+13. JDK：请访问 http://learning.happymmall.com/jdk/ 下载windows和linux/mac 下的JDK 
+
+14. Maven：请访问http://learning.happymmall.com/maven/下载windows和linux/mac 下的Maven
+     如果Maven默认仓库源比较慢，请修改settings文件，配置上阿里云的Maven仓库源，那个速度还是挺快的。
+
+15. MySQL：请访问 http://learning.happymmall.com/mysql/下载windows和linux/mac 下的MySQL，另外里面提供了一期课程mysql的配置文件。
+
+16. 支付宝： 具体的支付宝对接时候各种文档等网址。
+     沙箱登录：https://openhome.alipay.com/platform/appDaily.htm
+
+     沙箱环境使用说明：https://doc.open.alipay.com/doc2/detail.htm?treeId=200&articleId=105311&docType=1
+
+     如何使用沙箱环境：https://support.open.alipay.com/support/hotProblemDetail.htm?spm=a219a.7386793.0.0.uS5uZ6&id=251932&tagId=100248
+
+     当面付产品介绍：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.hV5Clx&treeId=193&articleId=105072&docType=1
+
+     扫码支付接入指引：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.Ia6Wqy&treeId=193&articleId=106078&docType=1
+
+     当面付快速接入：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.bROnXf&treeId=193&articleId=105170&docType=1
+
+     当面付接入必读：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.hV5Clx&treeId=193&articleId=105322&docType=1
+
+     当面付进阶功能：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.YFmkxI&treeId=193&articleId=105190&docType=1
+
+     当面付异步通知-仅用于扫码支付：https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.BykVSR&treeId=193&articleId=103296&docType=1
+
+     当面付SDK&DEMO：https://support.open.alipay.com/docs/doc.htm?spm=a219a.7386797.0.0.k0rwWc&treeId=193&articleId=105201&docType=1
+
+     服务端SDK：https://doc.open.alipay.com/doc2/detail?treeId=54&articleId=103419&docType=1
+
+     生成RSA密钥：https://doc.open.alipay.com/docs/doc.htm?treeId=291&articleId=105971&docType=1
+
+     线上创建应用说明：https://doc.open.alipay.com/doc2/detail.htm?treeId=200&articleId=105310&docType=1#s0
+
+17. PPT长命令：ppt里面的长命令也给小伙伴们整理了。请访问 http://learning.happymmall.com/pptcommand.html 
+
+18. 一期课程的思维导图： http://learning.happymmall.com/happymmallv1.svg
+
+19. 架构演进之Tomcat集群和分布式进阶课程相关资料
+     http://learning.happymmall.com/%E4%BA%8C%E6%9C%9F%E9%9B%86%E7%BE%A4%E5%8F%8A%E7%BC%93%E5%AD%98%E5%88%86%E5%B8%83%E5%BC%8FJava%E7%AB%AF/
 
 
 ## 项目代码RUN起来
